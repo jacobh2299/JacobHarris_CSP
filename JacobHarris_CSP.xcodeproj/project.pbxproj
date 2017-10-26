@@ -14,6 +14,13 @@
 		5B6CBB851FA21F9500B80DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CBB831FA21F9500B80DCD /* LaunchScreen.storyboard */; };
 		5B6CBB901FA21F9500B80DCD /* JacobHarris_CSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB8F1FA21F9500B80DCD /* JacobHarris_CSPTests.swift */; };
 		5B6CBB9B1FA21F9500B80DCD /* JacobHarris_CSPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB9A1FA21F9500B80DCD /* JacobHarris_CSPUITests.swift */; };
+		5BC342C81FA224D7009A438F /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342C71FA224D7009A438F /* CreativityViewController.swift */; };
+		5BC342CA1FA224EB009A438F /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342C91FA224EB009A438F /* AbstractionViewController.swift */; };
+		5BC342CC1FA224FE009A438F /* DataAndInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342CB1FA224FE009A438F /* DataAndInfoViewController.swift */; };
+		5BC342CE1FA22511009A438F /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342CD1FA22511009A438F /* AlgorithmsViewController.swift */; };
+		5BC342D01FA2251D009A438F /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */; };
+		5BC342D21FA22529009A438F /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D11FA22529009A438F /* InternetViewController.swift */; };
+		5BC342D41FA2253B009A438F /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		5B6CBB961FA21F9500B80DCD /* JacobHarris_CSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JacobHarris_CSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6CBB9A1FA21F9500B80DCD /* JacobHarris_CSPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacobHarris_CSPUITests.swift; sourceTree = "<group>"; };
 		5B6CBB9C1FA21F9500B80DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC342C71FA224D7009A438F /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
+		5BC342C91FA224EB009A438F /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		5BC342CB1FA224FE009A438F /* DataAndInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInfoViewController.swift; sourceTree = "<group>"; };
+		5BC342CD1FA22511009A438F /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
+		5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		5BC342D11FA22529009A438F /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +150,13 @@
 		5BC342C21FA21FFE009A438F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BC342C71FA224D7009A438F /* CreativityViewController.swift */,
+				5BC342C91FA224EB009A438F /* AbstractionViewController.swift */,
+				5BC342CB1FA224FE009A438F /* DataAndInfoViewController.swift */,
+				5BC342CD1FA22511009A438F /* AlgorithmsViewController.swift */,
+				5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */,
+				5BC342D11FA22529009A438F /* InternetViewController.swift */,
+				5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,7 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6CBB7D1FA21F9500B80DCD /* ViewController.swift in Sources */,
+				5BC342D01FA2251D009A438F /* ProgrammingViewController.swift in Sources */,
 				5B6CBB7B1FA21F9500B80DCD /* AppDelegate.swift in Sources */,
+				5BC342CC1FA224FE009A438F /* DataAndInfoViewController.swift in Sources */,
+				5BC342C81FA224D7009A438F /* CreativityViewController.swift in Sources */,
+				5BC342CE1FA22511009A438F /* AlgorithmsViewController.swift in Sources */,
+				5BC342CA1FA224EB009A438F /* AbstractionViewController.swift in Sources */,
+				5BC342D21FA22529009A438F /* InternetViewController.swift in Sources */,
+				5BC342D41FA2253B009A438F /* GlobalImpactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

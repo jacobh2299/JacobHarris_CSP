@@ -26,7 +26,7 @@
         <!--Creativity-->
         <scene sceneID="DqM-Kq-QNL">
             <objects>
-                <viewController title="Creativity" id="RXl-h4-CG3" sceneMemberID="viewController">
+                <viewController title="Creativity" id="RXl-h4-CG3" customClass="CreativityViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qNi-LZ-r5R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
         <!--Abstraciton-->
         <scene sceneID="rYn-Or-FcB">
             <objects>
-                <viewController title="Abstraciton" id="ZLl-1v-fpW" sceneMemberID="viewController">
+                <viewController title="Abstraciton" id="ZLl-1v-fpW" customClass="AbstractionViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aYb-Gc-Lle">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +56,7 @@
         <!--Data and Information-->
         <scene sceneID="pgt-Tc-7fD">
             <objects>
-                <viewController title="Data and Information" id="KA6-nB-XOm" sceneMemberID="viewController">
+                <viewController title="Data and Information" id="KA6-nB-XOm" customClass="DataAndInfoViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3sw-T6-Cta">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
         <!--Algorithms-->
         <scene sceneID="46s-y6-XMD">
             <objects>
-                <viewController title="Algorithms" id="AvU-7O-Dog" sceneMemberID="viewController">
+                <viewController title="Algorithms" id="AvU-7O-Dog" customClass="AlgorithmsViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r0P-yO-cSE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,7 +86,7 @@
         <!--Programming-->
         <scene sceneID="YkB-4C-a48">
             <objects>
-                <viewController title="Programming" id="27j-iN-WPJ" sceneMemberID="viewController">
+                <viewController title="Programming" id="27j-iN-WPJ" customClass="ProgrammingViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cEc-UV-fzu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
         <!--The Internet-->
         <scene sceneID="96E-Sl-j3v">
             <objects>
-                <viewController title="The Internet" id="CHv-I0-duz" sceneMemberID="viewController">
+                <viewController title="The Internet" id="CHv-I0-duz" customClass="InternetViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KZk-Z4-yWj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,7 +116,7 @@
         <!--Global Impact-->
         <scene sceneID="u3a-ZQ-0rN">
             <objects>
-                <viewController title="Global Impact" id="nqe-00-JL7" sceneMemberID="viewController">
+                <viewController title="Global Impact" id="nqe-00-JL7" customClass="GlobalImpactViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1rj-oY-sAC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
