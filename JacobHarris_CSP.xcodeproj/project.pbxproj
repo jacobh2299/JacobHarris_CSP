@@ -77,6 +77,10 @@
 		5B6CBB6E1FA21F9500B80DCD = {
 			isa = PBXGroup;
 			children = (
+				5BC342C41FA22017009A438F /* Resources */,
+				5BC342C21FA21FFE009A438F /* Model */,
+				5BC342C11FA21FF2009A438F /* Controller */,
+				5BC342C31FA2200E009A438F /* View */,
 				5B6CBB791FA21F9500B80DCD /* JacobHarris_CSP */,
 				5B6CBB8E1FA21F9500B80DCD /* JacobHarris_CSPTests */,
 				5B6CBB991FA21F9500B80DCD /* JacobHarris_CSPUITests */,
@@ -97,10 +101,6 @@
 		5B6CBB791FA21F9500B80DCD /* JacobHarris_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */,
-				5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */,
-				5B6CBB7E1FA21F9500B80DCD /* Main.storyboard */,
-				5B6CBB811FA21F9500B80DCD /* Assets.xcassets */,
 				5B6CBB831FA21F9500B80DCD /* LaunchScreen.storyboard */,
 				5B6CBB861FA21F9500B80DCD /* Info.plist */,
 			);
@@ -120,9 +120,41 @@
 			isa = PBXGroup;
 			children = (
 				5B6CBB9A1FA21F9500B80DCD /* JacobHarris_CSPUITests.swift */,
-				5B6CBB9C1FA21F9500B80DCD /* Info.plist */,
 			);
 			path = JacobHarris_CSPUITests;
+			sourceTree = "<group>";
+		};
+		5BC342C11FA21FF2009A438F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */,
+				5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5BC342C21FA21FFE009A438F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BC342C31FA2200E009A438F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CBB7E1FA21F9500B80DCD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BC342C41FA22017009A438F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CBB811FA21F9500B80DCD /* Assets.xcassets */,
+				5B6CBB9C1FA21F9500B80DCD /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
