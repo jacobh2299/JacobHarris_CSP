@@ -101,7 +101,7 @@
         <!--The Internet-->
         <scene sceneID="96E-Sl-j3v">
             <objects>
-                <viewController title="The Internet" id="CHv-I0-duz" customClass="InternetViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="The Internet" id="CHv-I0-duz" customClass="InternetDetailViewController" customModule="JacobHarris_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KZk-Z4-yWj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

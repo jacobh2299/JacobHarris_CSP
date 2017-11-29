@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */; };
 		5B6CBB7B1FA21F9500B80DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */; };
 		5B6CBB7D1FA21F9500B80DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */; };
 		5B6CBB801FA21F9500B80DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7E1FA21F9500B80DCD /* Main.storyboard */; };
@@ -19,7 +20,7 @@
 		5BC342CC1FA224FE009A438F /* DataAndInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342CB1FA224FE009A438F /* DataAndInfoViewController.swift */; };
 		5BC342CE1FA22511009A438F /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342CD1FA22511009A438F /* AlgorithmsViewController.swift */; };
 		5BC342D01FA2251D009A438F /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */; };
-		5BC342D21FA22529009A438F /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D11FA22529009A438F /* InternetViewController.swift */; };
+		5BC342D21FA22529009A438F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D11FA22529009A438F /* InternetDetailViewController.swift */; };
 		5BC342D41FA2253B009A438F /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		5B6CBB771FA21F9500B80DCD /* JacobHarris_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JacobHarris_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		5BC342CB1FA224FE009A438F /* DataAndInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInfoViewController.swift; sourceTree = "<group>"; };
 		5BC342CD1FA22511009A438F /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
-		5BC342D11FA22529009A438F /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		5BC342D11FA22529009A438F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +117,6 @@
 		5B6CBB791FA21F9500B80DCD /* JacobHarris_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				5B6CBB831FA21F9500B80DCD /* LaunchScreen.storyboard */,
 				5B6CBB861FA21F9500B80DCD /* Info.plist */,
 			);
 			path = JacobHarris_CSP;
@@ -141,8 +142,16 @@
 		5BC342C11FA21FF2009A438F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */,
 				5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */,
+				5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */,
+				5BC342C71FA224D7009A438F /* CreativityViewController.swift */,
+				5BC342CB1FA224FE009A438F /* DataAndInfoViewController.swift */,
+				5BC342C91FA224EB009A438F /* AbstractionViewController.swift */,
+				5BC342CD1FA22511009A438F /* AlgorithmsViewController.swift */,
+				5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */,
+				5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */,
+				5BC342D11FA22529009A438F /* InternetDetailViewController.swift */,
+				5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -150,13 +159,6 @@
 		5BC342C21FA21FFE009A438F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5BC342C71FA224D7009A438F /* CreativityViewController.swift */,
-				5BC342C91FA224EB009A438F /* AbstractionViewController.swift */,
-				5BC342CB1FA224FE009A438F /* DataAndInfoViewController.swift */,
-				5BC342CD1FA22511009A438F /* AlgorithmsViewController.swift */,
-				5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */,
-				5BC342D11FA22529009A438F /* InternetViewController.swift */,
-				5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				5B6CBB7E1FA21F9500B80DCD /* Main.storyboard */,
+				5B6CBB831FA21F9500B80DCD /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -319,7 +322,8 @@
 				5BC342C81FA224D7009A438F /* CreativityViewController.swift in Sources */,
 				5BC342CE1FA22511009A438F /* AlgorithmsViewController.swift in Sources */,
 				5BC342CA1FA224EB009A438F /* AbstractionViewController.swift in Sources */,
-				5BC342D21FA22529009A438F /* InternetViewController.swift in Sources */,
+				5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */,
+				5BC342D21FA22529009A438F /* InternetDetailViewController.swift in Sources */,
 				5BC342D41FA2253B009A438F /* GlobalImpactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
