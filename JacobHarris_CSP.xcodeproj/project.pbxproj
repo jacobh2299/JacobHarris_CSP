@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */; };
+		5B36A49A1FCF0B1D00E2E4A1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36A4991FCF0B1D00E2E4A1 /* WebKit.framework */; };
 		5B6CBB7B1FA21F9500B80DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */; };
 		5B6CBB7D1FA21F9500B80DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */; };
 		5B6CBB801FA21F9500B80DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7E1FA21F9500B80DCD /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		5B36A4991FCF0B1D00E2E4A1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5B6CBB771FA21F9500B80DCD /* JacobHarris_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JacobHarris_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B36A49A1FCF0B1D00E2E4A1 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B36A4981FCF0B1C00E2E4A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B36A4991FCF0B1D00E2E4A1 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B6CBB6E1FA21F9500B80DCD = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +112,7 @@
 				5B6CBB8E1FA21F9500B80DCD /* JacobHarris_CSPTests */,
 				5B6CBB991FA21F9500B80DCD /* JacobHarris_CSPUITests */,
 				5B6CBB781FA21F9500B80DCD /* Products */,
+				5B36A4981FCF0B1C00E2E4A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

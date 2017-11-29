@@ -11,7 +11,7 @@ import WebKit
 
 class InternetDetailViewController: UIViewController
 {
-
+    //MARK: GUI Controls
     @IBOutlet weak var textView: UILabel!
     @IBOutlet weak var webViewer: WKWebView!
     
@@ -19,6 +19,7 @@ class InternetDetailViewController: UIViewController
     {
         super.viewDidLoad()
         setup()
+        //Do any additional setup after loading the view.
     }
     
     private func setup() -> Void
