@@ -15,12 +15,64 @@ class InternetDetailViewController: UIViewController
     @IBOutlet weak var textView: UILabel!
     @IBOutlet weak var webViewer: WKWebView!
     
+    var detailAdress : String?
+    {
+        didSet
+        {
+         configureDetailView()
+        }
+    }
+    var detailText : String?
+    {
+        didSet
+        {
+            configureDetailView()
+        }
+    }
+    
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         setup()
         //Do any additional setup after loading the view.
     }
+    
+    private func configureDetailView() -> Void
+    {
+        if detailAdress != nil
+        {
+            if let currentWebView = webViewer
+            {
+                let currentURL = URL(string: detailAdress!)
+                let currentWebRequest = URLRequest(url: currentURL!)
+                currentWebView.load(currentWebRequest)
+            }
+        }
+        else
+        {
+            if let currentWebView = webViewer
+            {
+                let currentURL = URL(string: "https://www.cnn.com")
+                currentWebView.load(URLRequest(url:currentURL!))
+            }
+        }
+        if detailText != nil
+        {
+            if let currentText = textView
+            {
+                currentText.text = detailText
+            }
+        }
+        else
+        {
+            if let currentText = textView
+            {
+                currentText.text = "Jacob's CSP app internet screen"
+            }
+        }
+    }
+    
     
     private func setup() -> Void
     {

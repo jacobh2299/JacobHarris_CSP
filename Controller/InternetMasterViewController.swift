@@ -22,11 +22,26 @@ class InternetMasterViewController: UITableViewController
         ]
     }()
     
+    private lazy var addresses : [String] = []
+    
     private var detailViewController : InternetDetailViewController?
     
     private func setup() -> Void
     {
+        addresses = [
+        "https://www.google.com",
+        "https://www.google.com",
+        "https://www.google.com",
+        "https://www.google.com",
+        "https://www.google.com",
+        "https://www.google.com",
+        ]
         
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as? InternetDetailViewController
+        }
     }
     
     override func viewDidLoad()
@@ -53,5 +68,35 @@ class InternetMasterViewController: UITableViewController
         
         return cell
     }
+    
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier! == "showDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = addresses[indexPath.row]
+                let pageText: String
+                
+                if indexPath.row == 0
+                {
+                    pageText  = "all the definitions you wrote.........."
+                    
+                }
+                else{
+                    pageText = internetTopics[indexPath.row]
+                }
+                let controller = segue.destination as! InternetDetailViewController
+                controller.detailAdress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+        }
+    }
+    
+    
+    
+    
     
 }
