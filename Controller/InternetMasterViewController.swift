@@ -10,6 +10,7 @@ import UIKit
 
 class InternetMasterViewController: UITableViewController
 {
+    //externally visible but internally private. GOTTEM XD
     private (set) lazy var internetTopics : [String] =
     {
         return[
@@ -28,13 +29,14 @@ class InternetMasterViewController: UITableViewController
     
     private func setup() -> Void
     {
-        addresses = [
+        addresses =
+        [
         "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
+        "https://canyons.instructure.com/login/ldap",
+        "https://ctec.canyonsdistrict.org",
+        "http://www.canyonsdistrict.org",
+        "https://twitter.com/?lang=en",
+        "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html",
         ]
         
         if let splitView = splitViewController
@@ -83,11 +85,12 @@ class InternetMasterViewController: UITableViewController
                     pageText  = "all the definitions you wrote.........."
                     
                 }
-                else{
+                else
+                {
                     pageText = internetTopics[indexPath.row]
                 }
                 let controller = segue.destination as! InternetDetailViewController
-                controller.detailAdress = urlString
+                controller.detailAddress = urlString
                 controller.detailText = pageText
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true

@@ -23,6 +23,7 @@
 		5BC342D01FA2251D009A438F /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */; };
 		5BC342D21FA22529009A438F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D11FA22529009A438F /* InternetDetailViewController.swift */; };
 		5BC342D41FA2253B009A438F /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */; };
+		5BD1F8641FD6F0EE006DA398 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1F8631FD6F0EE006DA398 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		5BC342D11FA22529009A438F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		5BD1F8631FD6F0EE006DA398 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			children = (
 				5B6CBB7E1FA21F9500B80DCD /* Main.storyboard */,
 				5B6CBB831FA21F9500B80DCD /* LaunchScreen.storyboard */,
+				5BD1F8631FD6F0EE006DA398 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				5BC342CC1FA224FE009A438F /* DataAndInfoViewController.swift in Sources */,
 				5BC342C81FA224D7009A438F /* CreativityViewController.swift in Sources */,
 				5BC342CE1FA22511009A438F /* AlgorithmsViewController.swift in Sources */,
+				5BD1F8641FD6F0EE006DA398 /* DrawingView.swift in Sources */,
 				5BC342CA1FA224EB009A438F /* AbstractionViewController.swift in Sources */,
 				5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */,
 				5BC342D21FA22529009A438F /* InternetDetailViewController.swift in Sources */,
