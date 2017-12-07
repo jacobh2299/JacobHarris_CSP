@@ -23,6 +23,7 @@
 		5BC342D01FA2251D009A438F /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */; };
 		5BC342D21FA22529009A438F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D11FA22529009A438F /* InternetDetailViewController.swift */; };
 		5BC342D41FA2253B009A438F /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */; };
+		5BC499E61FD99C6B001C0CD7 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC499E51FD99C6B001C0CD7 /* ArtCell.swift */; };
 		5BD1F8641FD6F0EE006DA398 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1F8631FD6F0EE006DA398 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		5BC342D11FA22529009A438F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		5BC342D31FA2253B009A438F /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		5BC499E51FD99C6B001C0CD7 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		5BD1F8631FD6F0EE006DA398 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +168,7 @@
 				5BC342CF1FA2251D009A438F /* ProgrammingViewController.swift */,
 				5BC342D11FA22529009A438F /* InternetDetailViewController.swift */,
 				5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */,
+				5BC499E51FD99C6B001C0CD7 /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */,
 				5BC342D21FA22529009A438F /* InternetDetailViewController.swift in Sources */,
 				5BC342D41FA2253B009A438F /* GlobalImpactViewController.swift in Sources */,
+				5BC499E61FD99C6B001C0CD7 /* ArtCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

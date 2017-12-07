@@ -16,16 +16,16 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
     
     private lazy var artSelection: [UIImage?] = {
         return [
-            UIImage(named: "cute"),
-            UIImage(named: "suishiball"),
+            UIImage(named: "CuteTurtle"),
             UIImage(named: "tree"),
-            UIImage(named: "suishiball"),
-            UIImage(named: "suishiball"),
-            UIImage(named: "suishiball"),
-            UIImage(named: "suishiball"),
-            UIImage(named: "suishiball"),
-            UIImage(named: "suishiball"),
-            UIImage(named: "squishball")
+            UIImage(named: "tree"),
+            UIImage(named: "tree"),
+            UIImage(named: "tree"),
+            UIImage(named: "tree"),
+            UIImage(named: "tree"),
+            UIImage(named: "tree"),
+            UIImage(named: "tree"),
+            UIImage(named: "tree")
         ]
     }()
     var largePhotoIndexPath: IndexPath?

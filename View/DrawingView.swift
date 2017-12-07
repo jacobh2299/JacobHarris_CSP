@@ -64,7 +64,7 @@ public class DrawingView: UIView
         happyTree.move(to: CGPoint(x:110, y:150))
         happyTree.addLine(to: CGPoint(x:150, y:200))
         happyTree.addLine(to: CGPoint(x:10, y:200))
-        happyTree.addLine(to: CGPoint(x:15, y:150))
+        happyTree.addLine(to: CGPoint(x:50, y:150))
         happyTree.close()
         happyTree.stroke()
         happyTree.fill()
