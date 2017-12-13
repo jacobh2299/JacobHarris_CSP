@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0D325D1FE17D97005DF3D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D325C1FE17D97005DF3D3 /* Utilities.swift */; };
 		5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */; };
 		5B36A49A1FCF0B1D00E2E4A1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36A4991FCF0B1D00E2E4A1 /* WebKit.framework */; };
 		5B6CBB7B1FA21F9500B80DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */; };
@@ -45,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0D32581FE17C58005DF3D3 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GameController; path = ../../../../Downloads/GameCode/GameController; sourceTree = "<group>"; };
+		5B0D325A1FE17C76005DF3D3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../../../Downloads/GameCode/Sounds; sourceTree = "<group>"; };
+		5B0D325B1FE17C84005DF3D3 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = ../../../../Downloads/GameCode/Model; sourceTree = "<group>"; };
+		5B0D325C1FE17D97005DF3D3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../../../Downloads/GameCode/Utilities.swift; sourceTree = "<group>"; };
 		5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		5B36A4991FCF0B1D00E2E4A1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5B6CBB771FA21F9500B80DCD /* JacobHarris_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JacobHarris_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */,
+				5B0D32581FE17C58005DF3D3 /* GameController */,
 				5B6CBB7C1FA21F9500B80DCD /* ViewController.swift */,
 				5BC342C71FA224D7009A438F /* CreativityViewController.swift */,
 				5BC342CB1FA224FE009A438F /* DataAndInfoViewController.swift */,
@@ -176,6 +182,7 @@
 		5BC342C21FA21FFE009A438F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5B0D325B1FE17C84005DF3D3 /* Model */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +200,8 @@
 		5BC342C41FA22017009A438F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B0D325C1FE17D97005DF3D3 /* Utilities.swift */,
+				5B0D325A1FE17C76005DF3D3 /* Sounds */,
 				5B6CBB811FA21F9500B80DCD /* Assets.xcassets */,
 				5B6CBB9C1FA21F9500B80DCD /* Info.plist */,
 			);
@@ -337,6 +346,7 @@
 				5BC342D01FA2251D009A438F /* ProgrammingViewController.swift in Sources */,
 				5B6CBB7B1FA21F9500B80DCD /* AppDelegate.swift in Sources */,
 				5BC342CC1FA224FE009A438F /* DataAndInfoViewController.swift in Sources */,
+				5B0D325D1FE17D97005DF3D3 /* Utilities.swift in Sources */,
 				5BC342C81FA224D7009A438F /* CreativityViewController.swift in Sources */,
 				5BC342CE1FA22511009A438F /* AlgorithmsViewController.swift in Sources */,
 				5BD1F8641FD6F0EE006DA398 /* DrawingView.swift in Sources */,
