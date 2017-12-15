@@ -11,6 +11,7 @@
 		5B0D32611FE18200005DF3D3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D32601FE18200005DF3D3 /* GameScene.swift */; };
 		5B0D32641FE18209005DF3D3 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D32621FE18209005DF3D3 /* LevelCompleteScene.swift */; };
 		5B0D32651FE18209005DF3D3 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D32631FE18209005DF3D3 /* StartScene.swift */; };
+		5B26F3021FE4267100E160CC /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5B26F3011FE4167500E160CC /* StarField.sks */; };
 		5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */; };
 		5B36A49A1FCF0B1D00E2E4A1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36A4991FCF0B1D00E2E4A1 /* WebKit.framework */; };
 		5B6CBB7B1FA21F9500B80DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */; };
@@ -217,8 +218,8 @@
 			children = (
 				5B6CBB7E1FA21F9500B80DCD /* Main.storyboard */,
 				5B6CBB831FA21F9500B80DCD /* LaunchScreen.storyboard */,
-				5BD1F8631FD6F0EE006DA398 /* DrawingView.swift */,
 				5B26F3011FE4167500E160CC /* StarField.sks */,
+				5BD1F8631FD6F0EE006DA398 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -347,6 +348,7 @@
 			files = (
 				5B6CBB851FA21F9500B80DCD /* LaunchScreen.storyboard in Resources */,
 				5B6CBB821FA21F9500B80DCD /* Assets.xcassets in Resources */,
+				5B26F3021FE4267100E160CC /* StarField.sks in Resources */,
 				5B6CBB801FA21F9500B80DCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = JacobHarris_CSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ctec.JacobHarris-CSP";
@@ -573,6 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = JacobHarris_CSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ctec.JacobHarris-CSP";
