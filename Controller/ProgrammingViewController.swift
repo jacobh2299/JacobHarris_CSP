@@ -9,20 +9,20 @@
 import UIKit
 import SpriteKit
 
-class ProgrammingViewController: UIViewController
+public class ProgrammingViewController: UIViewController
 {
 
-    override func viewDidLoad() -> Void
+    override public func viewDidLoad() -> Void
     {
         super.viewDidLoad()
         let gameScene = StartScene(size: view.bounds.size)
-        let gameView = viw as! SKView
+        let gameView = view as! SKView
         
-        gameView.showFPS = true
-        gameView.showNodeCount = true
-        gameView.ignoreSiblingOrder = true
+        gameView.showsFPS = true
+        gameView.showsNodeCount = true
+        gameView.ignoresSiblingOrder = true
         
-        gameScene.scaleModel = .resizeFill
+        gameScene.scaleMode = .resizeFill
         gameView.presentScene(gameScene)
 
     }
