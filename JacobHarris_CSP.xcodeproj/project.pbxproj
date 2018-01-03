@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5B0D325D1FE17D97005DF3D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D325C1FE17D97005DF3D3 /* Utilities.swift */; };
 		5B26F3021FE4267100E160CC /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5B26F3011FE4167500E160CC /* StarField.sks */; };
+		5B2C80131FFD260400BEB380 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB42FA1FE9691200E09F09 /* StartScene.swift */; };
+		5B2C80141FFD260B00BEB380 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB42F91FE9690B00E09F09 /* LevelCompleteScene.swift */; };
+		5B2C80151FFD260E00BEB380 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB42F81FE968FE00E09F09 /* GameScene.swift */; };
 		5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36A4961FCF00A600E2E4A1 /* InternetMasterViewController.swift */; };
 		5B36A49A1FCF0B1D00E2E4A1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36A4991FCF0B1D00E2E4A1 /* WebKit.framework */; };
 		5B6CBB7B1FA21F9500B80DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CBB7A1FA21F9500B80DCD /* AppDelegate.swift */; };
@@ -385,6 +388,7 @@
 				5BCB42FC1FE9692100E09F09 /* DeathScene.swift in Sources */,
 				5B6CBB7D1FA21F9500B80DCD /* ViewController.swift in Sources */,
 				5BA34C921FE1892A006A026A /* InvaderLaser.swift in Sources */,
+				5B2C80131FFD260400BEB380 /* StartScene.swift in Sources */,
 				5BA34C911FE1892A006A026A /* Invader.swift in Sources */,
 				5BC342D01FA2251D009A438F /* ProgrammingViewController.swift in Sources */,
 				5B6CBB7B1FA21F9500B80DCD /* AppDelegate.swift in Sources */,
@@ -397,6 +401,8 @@
 				5BC342CA1FA224EB009A438F /* AbstractionViewController.swift in Sources */,
 				5B36A4971FCF00A600E2E4A1 /* InternetMasterViewController.swift in Sources */,
 				5BC342D21FA22529009A438F /* InternetDetailViewController.swift in Sources */,
+				5B2C80151FFD260E00BEB380 /* GameScene.swift in Sources */,
+				5B2C80141FFD260B00BEB380 /* LevelCompleteScene.swift in Sources */,
 				5BC342D41FA2253B009A438F /* GlobalImpactViewController.swift in Sources */,
 				5BA34C931FE1892A006A026A /* Player.swift in Sources */,
 				5BA34C951FE1892A006A026A /* Projectile.swift in Sources */,

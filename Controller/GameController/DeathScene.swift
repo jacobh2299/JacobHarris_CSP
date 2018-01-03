@@ -29,13 +29,13 @@ class DeathScene: SKScene
     {
         let touch = touches.first
         let touchLocation = touch?.location(in: self)
-        let touchedNode = self.atPoint(touchLocation)
+        let touchedNode = self.atPoint(touchLocation!)
         if(touchedNode.name == "game over")
         {
-            let newGameScene = GameScene(size: size)
+            let newGameScene = StartScene(size: size)
             newGameScene.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
-            view?. presentScene(newGameScene,transition: transitionType)
+            view?.presentScene(newGameScene,transition: transitionType)
             
         }
     }
