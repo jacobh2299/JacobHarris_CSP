@@ -254,7 +254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mUd-KJ-ED6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-306" y="851"/>
+            <point key="canvasLocation" x="220" y="851"/>
         </scene>
         <!--Programming-->
         <scene sceneID="YkB-4C-a48">
@@ -293,9 +293,26 @@
                     <view key="view" contentMode="scaleToFill" id="1rj-oY-sAC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poverty1" translatesAutoresizingMaskIntoConstraints="NO" id="7cD-4C-jWT">
+                                <rect key="frame" x="48" y="63" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Poverty has a woman's face too" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baC-Jm-o3n">
+                                <rect key="frame" x="49" y="213" width="243" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.34858790589768718" green="1" blue="0.91714237731181814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="yMY-Tv-rVn"/>
                     </view>
+                    <connections>
+                        <outlet property="PovertyLabel" destination="baC-Jm-o3n" id="sAV-Kd-TPX"/>
+                        <outlet property="poverty" destination="7cD-4C-jWT" id="XXl-Al-DTY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfw-Se-1F3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -320,4 +337,7 @@
             <point key="canvasLocation" x="-2297" y="-130"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="poverty1" width="1280" height="720"/>
+    </resources>
 </document>

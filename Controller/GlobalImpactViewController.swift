@@ -9,7 +9,9 @@
 import UIKit
 
 class GlobalImpactViewController: UIViewController {
-
+    @IBOutlet weak var PovertyLabel: UILabel!
+    
+    @IBOutlet weak var poverty: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
